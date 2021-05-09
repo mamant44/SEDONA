@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "PT Sans", Arial, sans-serif;
+    line-height: 21px;
+    text-align: center;
+    color: #333333;
+    background-color: #dcdcdc;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@font-face {
+    font-family: "PT Sans bold" ;
+    src: url(web/ptsansbold.woff);
+}
+@font-face {
+    font-family: "PT Sans";
+    src: url(web/ptsans.woff);
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
